@@ -8,6 +8,7 @@
         font-size: 22px;
         margin: 0;
         padding: 0;
+        min-width: 200px;
 
     }
     #content{

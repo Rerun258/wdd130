@@ -1,0 +1,37 @@
+body{
+    background: gray;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+}
+
+.picture{ 
+     max-width: 100%;
+    min-width: 300px;
+    background-color: aliceblue;
+    text-align: center; 
+    grid-row: 1;
+    grid-column: 1/2;
+} 
+#cherrypic{ 
+    max-width: 50%;
+    min-width: 300px; 
+    
+
+}
+ .tart{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row: 1;
+    grid-column: 1/3;
+    text-align: 25%;
+    font-size: 25px;
+}
+.cherrytxt{
+    font-size: 30px;
+    color: darkred;
+    grid-row: 1;
+    grid-column: 2/3;
+    text-align: center;
+    
+}
+
