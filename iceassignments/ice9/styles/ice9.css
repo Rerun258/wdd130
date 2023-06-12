@@ -1,0 +1,28 @@
+
+    #main{
+        max-width: 300px;
+        margin: auto;
+        
+        background-color: white;
+    }
+    footer{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .button{
+        background-color: darkblue;
+        border: 4px gray;
+    }
+    .button div{
+        color: white;
+        text-align: center;
+    }
+    h1{
+        text-align: center;
+    }
+    h2{
+        text-align: center;
+    }
+    h3{
+        text-align: center;
+    }
