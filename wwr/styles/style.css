@@ -65,7 +65,10 @@
     }
     
     #logo_link{
-        text-align: center;
+        /* text-align: center; */
+        padding-top: 5px;
+        justify-self: center;
+        align-self: center;
     }
     
 /*   hero   */
@@ -83,6 +86,9 @@
     }
     #hero-msg h1{
         text-align: center;
+        grid-column: 2/3;
+        grid-row: 1/2;
+        margin-top: 100px;
     }
     #hero-img{
         width: 100%;
